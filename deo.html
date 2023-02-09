@@ -1,0 +1,66 @@
+<html>
+<head>
+    <title>Grid_3</title>
+    <style>
+        .container {
+            display: grid;
+            grid: auto;
+            height: 100%;
+            gap: 10px;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .header {
+            border: 3px solid red;
+            border-radius: 10px;
+            grid-column: 1/13;
+        }
+
+        .sidenav {
+            border: 3px solid red;
+            border-radius: 10px;
+            grid-area: 2/1/8/3;
+        }
+
+        .navbar {
+            border: 3px solid red;
+            border-radius: 10px;
+            grid-area: 2/3/3/11;
+        }
+
+        .main {
+            border: 3px solid red;
+            border-radius: 10px;
+            grid-area: 3/3/8/11;
+        }
+
+        .add {
+            border: 3px solid red;
+            border-radius: 10px;
+            grid-area: 2/11/8/13;
+        }
+
+        .footer {
+            border: 3px solid red;
+            border-radius: 10px;
+            grid-column: 1/13;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">header</div>
+        <div class="sidenav">sidenav</div>
+        <div class="navbar">navbar</div>
+        <div class="main">main</div>
+        <div class="add">ads</div>
+
+        <div class="footer">footer</div>
+
+    </div>
+
+</body>
+
+</html>
